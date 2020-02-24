@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./style/index.scss";
+import App from "./App";
 
 
-const Index = () => {
-    return "o"
-};
-
-
-ReactDOM.render(<Index/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('app'));
